@@ -1,0 +1,90 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0 4rem 0;
+    gap: 2rem;
+}
+
+.title {
+    color: white;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#task-input {
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: 0;
+}
+
+#btn {
+    width: 2rem;
+    height: 2rem;
+    font-weight: bold;
+    color: white;
+    border-radius: .5rem;
+    cursor: pointer;
+    border: 0;
+}
+
+.list-area {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.task-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+.task-card {
+    width: 50%;
+    padding: 1rem;
+    border-radius: .75rem;
+    background-color: #F3E3D0;
+}
+
+/* Colors */
+.c1 { background-color: #81A6C6; }
+.c2 { background-color: #AACDDC; }
+.c3 { background-color: #F3E3D0; }
+.c4 { background-color: #D2C4B4; }
